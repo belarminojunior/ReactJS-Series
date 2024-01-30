@@ -8,7 +8,7 @@ import apiRequest from "./apiRequest";
 import { useState, useEffect } from "react";
 
 function App() {
-  const API_URL = "http://localhost:3501/items";
+  const API_URL = "http://localhost:3500/items";
 
   const [items, setItems] = useState([]);
   const [newItem, setNewItem] = useState("");
